@@ -1,0 +1,181 @@
+
+.title {
+  font-family: "Monomaniac One", serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(135deg, #145aab, #ba53e2, #50ae3d);
+  background-size: 500px 100%;
+  background-clip: text;
+}
+
+body {
+  background-color: #e4b8d7;
+  font-family: "Arial", serif;
+  color: black;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.title_footer {
+  font-family: "Arial", serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(135deg, #991e6e, #2ce0bf, #7ddd2c);
+  background-size: 500px 100%;
+  background-clip: text;
+}
+.blue {
+  background-color: rgb(45, 108, 180);
+}
+
+.blue:hover {
+  background-color: rgba(238, 143, 238, 0.5);
+}
+
+.yellow {
+  background-color: rgb(209, 206, 9);
+}
+
+.yellow:hover {
+  background-color: rgba(209, 206, 9, 0.5);
+}
+
+.card_transparent {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box_small {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #000;
+}
+
+footer h5 {
+  color: #991e80;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer ul li a {
+  color: #aaa;
+}
+
+footer ul li a:hover {
+  color: #23bdff;
+  text-decoration: underline;
+}
+
+footer .contact p {
+  margin-bottom: 10px;
+}
+
+footer .contact a {
+  color: #ab1c1c;
+}
+
+footer .contact a:hover {
+  color: #6d0606;
+  text-decoration: underline;
+}
+
+
+.profile-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.job-title {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+/* Profile Sections */
+.profile-section {
+  margin-top: 20px;
+}
+
+.profile-section h2 {
+  font-size: 20px;
+  color: #66c2a6;
+  border-bottom: 2px solid #66c2a6;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.profile-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-section ul li {
+  margin-bottom: 8px;
+}
+
+/* Skills List */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background-color: #66c2a6;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
